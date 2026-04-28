@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import {
   View, Text, StyleSheet, ScrollView,
-  TouchableOpacity, Alert, Platform,
+  TouchableOpacity, Alert,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import * as Notifications from 'expo-notifications';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { TC } from '../../theme/colors';
 import TheraCareHeader from '../../components/TheraCareHeader';
-import { mockParsedDischarge } from '../../data/mockData';
+import { ParsedDischarge, mockParsedDischarge } from '../../data/mockData';
 
 async function scheduleReminder(title: string, body: string, secondsFromNow: number) {
   const { status } = await Notifications.requestPermissionsAsync();
@@ -30,7 +30,9 @@ export default function DischargeAnalysisScreen() {
   const navigation = useNavigation<any>();
   const route = useRoute<any>();
   const fileName = route.params?.fileName ?? 'Discharge Paper';
-  const d = mockParsedDischarge;
+  const d: ParsedDischarge = route.params?.parsedDischarge ?? mockParsedDischarge;
+  const model = route.params?.model;
+  const isSample = route.params?.isSample;
   const [remindersSet, setRemindersSet] = useState<ReminderSet>({});
 
   async function handleMedReminder(medName: string, key: string) {
@@ -88,6 +90,11 @@ export default function DischargeAnalysisScreen() {
             <View style={{ flex: 1 }}>
               <Text style={styles.successTitle}>Analysis Complete</Text>
               <Text style={styles.successFile} numberOfLines={1}>{fileName}</Text>
+              {model || isSample ? (
+                <Text style={styles.successModel} numberOfLines={1}>
+                  {isSample ? 'Sample analysis' : `Analyzed with ${model}`}
+                </Text>
+              ) : null}
             </View>
             <TouchableOpacity
               style={styles.remindersBtn}
@@ -302,6 +309,7 @@ const styles = StyleSheet.create({
   },
   successTitle: { fontSize: 15, fontWeight: '700', color: TC.tealDark },
   successFile: { fontSize: 12, color: TC.textSecondary, marginTop: 1 },
+  successModel: { fontSize: 11, color: TC.textMuted, marginTop: 1 },
   remindersBtn: {
     flexDirection: 'row',
     alignItems: 'center',

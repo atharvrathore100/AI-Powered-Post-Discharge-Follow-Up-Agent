@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   View, Text, StyleSheet, ScrollView,
-  TouchableOpacity, Alert, ActivityIndicator, Platform,
+  TouchableOpacity, Alert, ActivityIndicator,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import * as DocumentPicker from 'expo-document-picker';
@@ -9,6 +9,7 @@ import * as ImagePicker from 'expo-image-picker';
 import { useNavigation } from '@react-navigation/native';
 import { TC } from '../../theme/colors';
 import TheraCareHeader from '../../components/TheraCareHeader';
+import { analyzeDischargeDocument } from '../../services/dischargeAnalysis';
 
 const FEATURES = [
   { icon: 'document-text-outline' as const, label: 'Extract diagnosis & medications' },
@@ -20,6 +21,7 @@ const FEATURES = [
 export default function DischargeHomeScreen() {
   const navigation = useNavigation<any>();
   const [loading, setLoading] = useState(false);
+  const [loadingLabel, setLoadingLabel] = useState('Analyzing discharge papers...');
 
   async function pickDocument() {
     try {
@@ -28,7 +30,7 @@ export default function DischargeHomeScreen() {
         copyToCacheDirectory: true,
       });
       if (!result.canceled && result.assets.length > 0) {
-        startAnalysis(result.assets[0].name ?? 'Discharge Paper');
+        analyzeUploadedDocument(result.assets[0], result.assets[0].name ?? 'Discharge Paper');
       }
     } catch {
       Alert.alert('Error', 'Could not open document picker.');
@@ -46,7 +48,7 @@ export default function DischargeHomeScreen() {
       quality: 0.85,
     });
     if (!result.canceled && result.assets.length > 0) {
-      startAnalysis('Discharge Photo');
+      analyzeUploadedDocument(result.assets[0], 'Discharge Photo');
     }
   }
 
@@ -58,16 +60,40 @@ export default function DischargeHomeScreen() {
     }
     const result = await ImagePicker.launchCameraAsync({ quality: 0.85 });
     if (!result.canceled && result.assets.length > 0) {
-      startAnalysis('Discharge Photo');
+      analyzeUploadedDocument(result.assets[0], 'Discharge Photo');
     }
   }
 
-  function startAnalysis(fileName: string) {
+  async function analyzeUploadedDocument(asset: any, fallbackName: string) {
     setLoading(true);
+    setLoadingLabel(`Analyzing ${fallbackName}...`);
+
+    try {
+      const result = await analyzeDischargeDocument(asset, fallbackName);
+      setLoading(false);
+      navigation.navigate('DischargeAnalysis', {
+        fileName: result.fileName || fallbackName,
+        parsedDischarge: result.parsedDischarge,
+        model: result.model,
+      });
+    } catch (error) {
+      setLoading(false);
+      Alert.alert(
+        'Analysis Failed',
+        error instanceof Error
+          ? `${error.message}\n\nMake sure the API server is running with npm run api and your OPENAI_API_KEY is set in .env.`
+          : 'Could not analyze this discharge document.'
+      );
+    }
+  }
+
+  function startSampleAnalysis(fileName: string) {
+    setLoading(true);
+    setLoadingLabel('Loading sample discharge analysis...');
     setTimeout(() => {
       setLoading(false);
-      navigation.navigate('DischargeAnalysis', { fileName });
-    }, 2200);
+      navigation.navigate('DischargeAnalysis', { fileName, isSample: true });
+    }, 700);
   }
 
   return (
@@ -126,8 +152,8 @@ export default function DischargeHomeScreen() {
         {loading && (
           <View style={styles.loadingCard}>
             <ActivityIndicator size="large" color={TC.teal} />
-            <Text style={styles.loadingText}>Analyzing discharge papers…</Text>
-            <Text style={styles.loadingSubText}>TheraCare AI is extracting your information</Text>
+            <Text style={styles.loadingText}>{loadingLabel}</Text>
+            <Text style={styles.loadingSubText}>TheraCare AI is extracting structured care instructions</Text>
           </View>
         )}
 
@@ -135,7 +161,7 @@ export default function DischargeHomeScreen() {
         {!loading && (
           <TouchableOpacity
             style={styles.demoBtn}
-            onPress={() => startAnalysis('Demo Discharge')}
+            onPress={() => startSampleAnalysis('Demo Discharge')}
             activeOpacity={0.8}
           >
             <Ionicons name="flash-outline" size={16} color={TC.textSecondary} />
