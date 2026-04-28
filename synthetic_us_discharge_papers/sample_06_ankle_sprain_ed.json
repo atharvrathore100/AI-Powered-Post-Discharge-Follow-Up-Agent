@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "document_type": "Emergency Department Discharge Papers - Ankle Sprain",
+  "patient": {
+    "name": "Samir Patel",
+    "dob": "11/21/2001",
+    "sex": "Male",
+    "mrn": "SYN-610044",
+    "phone": "555-0112"
+  },
+  "encounter": {
+    "admit": "04/14/2026 19:35",
+    "discharge": "04/14/2026 21:05",
+    "unit": "Emergency Department",
+    "attending": "C. Miller, PA-C",
+    "pcp": "Student Health Clinic"
+  },
+  "diagnoses": [
+    "Right ankle sprain",
+    "No fracture seen on X-ray"
+  ],
+  "medications": [
+    {
+      "status": "START",
+      "name": "Ibuprofen",
+      "dose": "400 mg tablet",
+      "instructions": "Take 1 tablet by mouth every 6 hours as needed with food",
+      "duration": "5 days",
+      "notes": "Avoid if stomach ulcer, kidney disease, or blood thinner use."
+    },
+    {
+      "status": "START",
+      "name": "Acetaminophen",
+      "dose": "500 mg tablet",
+      "instructions": "Take 1 tablet by mouth every 6 hours as needed",
+      "duration": "5 days",
+      "notes": "Do not exceed 3,000 mg per day."
+    }
+  ],
+  "follow_up": [
+    "Follow up with student health or sports medicine in 5 to 7 days if still unable to walk normally.",
+    "Begin gentle range-of-motion exercises after pain improves."
+  ],
+  "return_precautions": [
+    "Return for numbness, toes turning blue or cold, rapidly worsening swelling, uncontrolled pain, new calf swelling, or inability to bear weight after several days."
+  ],
+  "risk_notes": "Low to moderate risk: mobility limitation and follow-up if symptoms persist."
+}

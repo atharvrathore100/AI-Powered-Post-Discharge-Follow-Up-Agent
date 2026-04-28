@@ -1,0 +1,46 @@
+Sample Hospital North - Synthetic Test Document
+Inpatient Discharge Summary - Community-Acquired Pneumonia
+SYNTHETIC TEST DOCUMENT - NOT REAL PATIENT DATA - NOT MEDICAL ADVICE
+
+Patient: Jordan Ellis | DOB: 04/18/1972 | Sex: Male | MRN: SYN-104982 | Phone: 555-0104
+Admit/Visit Date: 03/12/2026 08:35 | Discharge Date: 03/15/2026 14:10 | Unit: Medical Floor
+Attending: A. Reynolds, MD | Primary Care: M. Shah, MD
+Allergies: Penicillin - rash as a child
+
+DISCHARGE DIAGNOSES
+1. Community-acquired pneumonia, right lower lobe
+2. Acute hypoxemic respiratory failure, resolved
+3. Hypertension
+4. Tobacco use history
+
+BRIEF HOSPITAL COURSE
+The patient was admitted with fever, productive cough, pleuritic chest pain, oxygen saturation 88% on room air, and right lower lobe infiltrate on chest X-ray. He received ceftriaxone and azithromycin, oxygen by nasal cannula, bronchodilator treatments as needed, and incentive spirometry. Blood cultures showed no growth. Oxygen was weaned off before discharge and the patient ambulated 300 feet with oxygen saturation 94% on room air.
+
+IMPORTANT RESULTS
+- Chest X-ray 03/12/2026: Right lower lobe infiltrate, no pleural effusion.
+- WBC improved from 15.2 to 9.8 K/uL.
+- Creatinine stable at 0.9 mg/dL.
+- Blood cultures: no growth at 48 hours.
+
+DISCHARGE MEDICATIONS
+- START: Azithromycin | 250 mg tablet | Take 1 tablet by mouth daily | Duration: 2 days | Notes: Complete antibiotic course.
+- START: Cefpodoxime | 200 mg tablet | Take 1 tablet by mouth every 12 hours | Duration: 5 days | Notes: Take with food.
+- CONTINUE: Lisinopril | 10 mg tablet | Take 1 tablet by mouth daily | Duration: Ongoing | Notes: For blood pressure.
+- START: Albuterol inhaler | 90 mcg/puff | Inhale 2 puffs every 6 hours as needed | Duration: As needed | Notes: For wheezing or shortness of breath.
+
+CARE INSTRUCTIONS
+- Use incentive spirometer 10 times every hour while awake for 3 days.
+- Drink fluids unless restricted by your doctor.
+- Avoid smoking and secondhand smoke.
+- Return to normal activity gradually as tolerated.
+
+FOLLOW-UP
+- Primary care visit with Dr. M. Shah within 7 days of discharge.
+- Repeat chest X-ray in 6 to 8 weeks to confirm clearing.
+- Call clinic if antibiotics cause rash, severe diarrhea, or vomiting.
+
+WHEN TO SEEK HELP / RETURN PRECAUTIONS
+- Return to the emergency department for worsening shortness of breath, chest pain, confusion, lips turning blue, fever above 101.5 F after 48 hours of antibiotics, or oxygen saturation below 90% if measured at home.
+
+POST-DISCHARGE APP TEST SIGNAL
+Moderate risk: recent oxygen requirement and antibiotic completion needed.

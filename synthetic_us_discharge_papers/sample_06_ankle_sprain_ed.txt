@@ -1,0 +1,38 @@
+Sample Urgent Care and ED - Synthetic Test Document
+Emergency Department Discharge Papers - Ankle Sprain
+SYNTHETIC TEST DOCUMENT - NOT REAL PATIENT DATA - NOT MEDICAL ADVICE
+
+Patient: Samir Patel | DOB: 11/21/2001 | Sex: Male | MRN: SYN-610044 | Phone: 555-0112
+Admit/Visit Date: 04/14/2026 19:35 | Discharge Date: 04/14/2026 21:05 | Unit: Emergency Department
+Attending: C. Miller, PA-C | Primary Care: Student Health Clinic
+Allergies: No known drug allergies
+
+DISCHARGE DIAGNOSES
+1. Right ankle sprain
+2. No fracture seen on X-ray
+
+BRIEF HOSPITAL COURSE
+The patient injured his right ankle while playing soccer. Exam showed swelling over the lateral ankle and pain with walking. X-rays did not show fracture. The ankle was wrapped, a walking boot was provided, and the patient was discharged with conservative care instructions.
+
+IMPORTANT RESULTS
+- Right ankle X-ray: Soft tissue swelling, no acute fracture or dislocation.
+
+DISCHARGE MEDICATIONS
+- START: Ibuprofen | 400 mg tablet | Take 1 tablet by mouth every 6 hours as needed with food | Duration: 5 days | Notes: Avoid if stomach ulcer, kidney disease, or blood thinner use.
+- START: Acetaminophen | 500 mg tablet | Take 1 tablet by mouth every 6 hours as needed | Duration: 5 days | Notes: Do not exceed 3,000 mg per day.
+
+CARE INSTRUCTIONS
+- Rest the ankle for 24 to 48 hours.
+- Ice for 15 to 20 minutes at a time, 3 to 5 times daily for the first 2 days.
+- Use compression wrap and elevate above heart level when possible.
+- Use walking boot and crutches as needed. Bear weight as tolerated.
+
+FOLLOW-UP
+- Follow up with student health or sports medicine in 5 to 7 days if still unable to walk normally.
+- Begin gentle range-of-motion exercises after pain improves.
+
+WHEN TO SEEK HELP / RETURN PRECAUTIONS
+- Return for numbness, toes turning blue or cold, rapidly worsening swelling, uncontrolled pain, new calf swelling, or inability to bear weight after several days.
+
+POST-DISCHARGE APP TEST SIGNAL
+Low to moderate risk: mobility limitation and follow-up if symptoms persist.

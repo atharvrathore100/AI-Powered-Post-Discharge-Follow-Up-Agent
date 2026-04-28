@@ -1,0 +1,48 @@
+Metro General Medical Center - Synthetic Test Document
+Discharge Instructions - Heart Failure Exacerbation
+SYNTHETIC TEST DOCUMENT - NOT REAL PATIENT DATA - NOT MEDICAL ADVICE
+
+Patient: Marisol Grant | DOB: 09/03/1958 | Sex: Female | MRN: SYN-220611 | Phone: 555-0148
+Admit/Visit Date: 03/20/2026 17:20 | Discharge Date: 03/24/2026 11:45 | Unit: Cardiology
+Attending: P. Nguyen, MD | Primary Care: R. Patel, MD
+Allergies: No known drug allergies
+
+DISCHARGE DIAGNOSES
+1. Acute on chronic systolic heart failure
+2. Type 2 diabetes mellitus
+3. Chronic kidney disease stage 3a
+4. Hypertension
+
+BRIEF HOSPITAL COURSE
+The patient presented with progressive shortness of breath, bilateral leg swelling, and 8 pound weight gain over one week. BNP was elevated and chest X-ray showed pulmonary vascular congestion. She was treated with IV furosemide and transitioned to oral diuretics. Weight decreased from 188 lb to 179 lb. Kidney function remained near baseline. She received heart failure education before discharge.
+
+IMPORTANT RESULTS
+- Echocardiogram: LVEF 35%, unchanged from prior.
+- BNP 1,260 pg/mL on admission, improved clinically before discharge.
+- Creatinine 1.4 mg/dL at discharge, baseline 1.3-1.5.
+- Potassium 4.2 mmol/L at discharge.
+
+DISCHARGE MEDICATIONS
+- CHANGE: Furosemide | 40 mg tablet | Take 1 tablet by mouth twice daily | Duration: Ongoing | Notes: Dose increased from once daily.
+- START: Potassium chloride | 20 mEq tablet | Take 1 tablet by mouth daily | Duration: Ongoing | Notes: Take while using furosemide unless told otherwise.
+- CONTINUE: Carvedilol | 12.5 mg tablet | Take 1 tablet by mouth twice daily with meals | Duration: Ongoing | Notes: Do not stop suddenly.
+- CONTINUE: Metformin ER | 500 mg tablet | Take 1 tablet by mouth with dinner | Duration: Ongoing | Notes: Hold if vomiting or unable to eat.
+- STOP: Ibuprofen | 200 mg tablet | Do not take | Duration: Stopped | Notes: Can worsen kidney function and fluid retention.
+
+CARE INSTRUCTIONS
+- Weigh yourself every morning after urinating and before breakfast. Write down the number.
+- Follow a 2 gram sodium diet.
+- Limit fluids to 2 liters per day unless your cardiologist changes this.
+- Check blood pressure daily if you have a home cuff.
+
+FOLLOW-UP
+- Cardiology follow-up scheduled 03/31/2026 at 09:30 with Heart Failure Clinic.
+- Primary care follow-up within 1 to 2 weeks.
+- Basic metabolic panel blood test in 5 to 7 days to check kidney function and potassium.
+
+WHEN TO SEEK HELP / RETURN PRECAUTIONS
+- Call the heart failure clinic for weight gain of 3 lb in 24 hours or 5 lb in one week, worsening swelling, or increased shortness of breath.
+- Go to the emergency department for severe shortness of breath at rest, chest pain, fainting, confusion, or inability to lie flat due to breathing.
+
+POST-DISCHARGE APP TEST SIGNAL
+High risk: medication change, diuretic monitoring, kidney disease, and early follow-up required.

@@ -1,0 +1,41 @@
+Lakeside Surgical Center - Synthetic Test Document
+Surgical Discharge Summary - Laparoscopic Appendectomy
+SYNTHETIC TEST DOCUMENT - NOT REAL PATIENT DATA - NOT MEDICAL ADVICE
+
+Patient: Ethan Brooks | DOB: 12/28/1997 | Sex: Male | MRN: SYN-330872 | Phone: 555-0173
+Admit/Visit Date: 04/02/2026 22:05 | Discharge Date: 04/04/2026 10:20 | Unit: Surgery
+Attending: D. Kim, MD | Primary Care: None listed
+Allergies: Morphine - nausea and itching
+
+DISCHARGE DIAGNOSES
+1. Acute appendicitis without perforation
+2. Status post laparoscopic appendectomy
+
+BRIEF HOSPITAL COURSE
+The patient presented with right lower quadrant abdominal pain, nausea, and CT findings consistent with acute appendicitis. He underwent uncomplicated laparoscopic appendectomy on 04/03/2026. He tolerated diet, voided normally, and ambulated before discharge. Pain was controlled with oral medications.
+
+IMPORTANT RESULTS
+- CT abdomen/pelvis: Acute appendicitis, no abscess.
+- Pathology pending at discharge.
+- WBC decreased from 13.7 to 10.1 K/uL.
+
+DISCHARGE MEDICATIONS
+- START: Acetaminophen | 500 mg tablet | Take 2 tablets by mouth every 8 hours as needed | Duration: 7 days | Notes: Do not exceed 3,000 mg per day.
+- START: Oxycodone | 5 mg tablet | Take 1 tablet by mouth every 6 hours as needed for severe pain | Duration: 3 days | Notes: Do not drive or drink alcohol.
+- START: Docusate sodium | 100 mg capsule | Take 1 capsule by mouth twice daily as needed | Duration: 7 days | Notes: For constipation while taking opioid pain medicine.
+
+CARE INSTRUCTIONS
+- Keep incisions clean and dry for 24 hours, then shower normally. Do not soak in a tub or pool for 2 weeks.
+- No lifting more than 10 lb for 2 weeks.
+- Walk several times daily.
+- Resume regular diet as tolerated.
+
+FOLLOW-UP
+- Surgery clinic follow-up in 10 to 14 days for wound check.
+- Call surgery clinic if pathology results are not received within 7 days.
+
+WHEN TO SEEK HELP / RETURN PRECAUTIONS
+- Return for fever above 101 F, worsening abdominal pain, repeated vomiting, pus or spreading redness around incision, chest pain, shortness of breath, or inability to pass urine.
+
+POST-DISCHARGE APP TEST SIGNAL
+Moderate risk: post-op wound monitoring and short opioid course.

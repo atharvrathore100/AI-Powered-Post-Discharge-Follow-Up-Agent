@@ -1,0 +1,44 @@
+Community Emergency Department - Synthetic Test Document
+Emergency Department Discharge Instructions - Hyperglycemia
+SYNTHETIC TEST DOCUMENT - NOT REAL PATIENT DATA - NOT MEDICAL ADVICE
+
+Patient: Priya Raman | DOB: 07/15/1984 | Sex: Female | MRN: SYN-448290 | Phone: 555-0189
+Admit/Visit Date: 04/08/2026 13:12 | Discharge Date: 04/08/2026 18:50 | Unit: Emergency Department
+Attending: L. Ortiz, MD | Primary Care: S. Menon, MD
+Allergies: Sulfa antibiotics - hives
+
+DISCHARGE DIAGNOSES
+1. Hyperglycemia without diabetic ketoacidosis
+2. Type 2 diabetes mellitus
+3. Dehydration, improved
+
+BRIEF HOSPITAL COURSE
+The patient came to the emergency department with home glucose readings above 350 mg/dL, increased thirst, and missed doses of diabetes medication for 2 days. Labs did not show diabetic ketoacidosis. She received IV fluids and insulin correction. Glucose improved to 212 mg/dL before discharge and she tolerated oral fluids.
+
+IMPORTANT RESULTS
+- Glucose 412 mg/dL on arrival, 212 mg/dL before discharge.
+- Serum ketones negative.
+- Anion gap normal.
+- Creatinine 0.8 mg/dL.
+
+DISCHARGE MEDICATIONS
+- CONTINUE: Metformin | 1000 mg tablet | Take 1 tablet by mouth twice daily with meals | Duration: Ongoing | Notes: Restart tonight with dinner.
+- START: Insulin glargine | 10 units | Inject 10 units under the skin every night | Duration: Ongoing | Notes: New long-acting insulin.
+- START: Glucose meter supplies | Test strips and lancets | Check glucose before breakfast and before dinner | Duration: Ongoing | Notes: Bring log to follow-up.
+- AVOID: Sugary drinks | N/A | Do not use soda or juice except for low glucose treatment | Duration: Ongoing | Notes: Diet instruction.
+
+CARE INSTRUCTIONS
+- Check blood sugar twice daily: before breakfast and before dinner.
+- Drink water regularly.
+- Do not skip insulin doses.
+- Eat regular meals with protein and high-fiber carbohydrates.
+
+FOLLOW-UP
+- Primary care appointment within 3 days for insulin adjustment.
+- Diabetes educator referral placed; call if not contacted within 1 week.
+
+WHEN TO SEEK HELP / RETURN PRECAUTIONS
+- Return to the emergency department for glucose above 400 mg/dL that does not improve, repeated vomiting, confusion, severe weakness, trouble breathing, or signs of low blood sugar that do not improve after treatment.
+
+POST-DISCHARGE APP TEST SIGNAL
+High risk: new insulin start and needs early follow-up.

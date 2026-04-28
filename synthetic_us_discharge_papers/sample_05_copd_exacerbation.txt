@@ -1,0 +1,44 @@
+River Valley Hospital - Synthetic Test Document
+Hospital Discharge Instructions - COPD Exacerbation
+SYNTHETIC TEST DOCUMENT - NOT REAL PATIENT DATA - NOT MEDICAL ADVICE
+
+Patient: Robert Chen | DOB: 02/06/1966 | Sex: Male | MRN: SYN-552014 | Phone: 555-0136
+Admit/Visit Date: 04/11/2026 06:40 | Discharge Date: 04/13/2026 16:30 | Unit: Pulmonary Medicine
+Attending: N. Williams, DO | Primary Care: K. Alvarez, MD
+Allergies: No known drug allergies
+
+DISCHARGE DIAGNOSES
+1. COPD exacerbation
+2. Acute bronchitis, suspected viral
+3. Former smoker
+
+BRIEF HOSPITAL COURSE
+The patient was admitted with increased wheezing, cough, and shortness of breath. COVID-19 and influenza testing were negative. He received steroids, scheduled nebulizer treatments, and oxygen. He improved and was discharged with home oxygen for exertion only based on walk testing.
+
+IMPORTANT RESULTS
+- Chest X-ray: Hyperinflation, no focal pneumonia.
+- COVID-19 PCR negative; influenza A/B negative.
+- Ambulatory oxygen saturation dropped to 87% on room air and improved to 93% with 2 L oxygen.
+
+DISCHARGE MEDICATIONS
+- START: Prednisone | 20 mg tablet | Take 2 tablets by mouth daily | Duration: 3 days | Notes: Take with food.
+- CONTINUE: Tiotropium inhaler | 18 mcg | Inhale 1 capsule once daily | Duration: Ongoing | Notes: Maintenance inhaler.
+- CONTINUE: Albuterol inhaler | 90 mcg/puff | Inhale 2 puffs every 4 hours as needed | Duration: As needed | Notes: Rescue inhaler.
+- START: Home oxygen | 2 L/min by nasal cannula | Use with walking or activity | Duration: Until reassessed | Notes: Do not smoke near oxygen.
+
+CARE INSTRUCTIONS
+- Use oxygen only as prescribed for activity.
+- Rinse mouth after inhaled medicines if instructed by your clinician.
+- Avoid smoke, dust, and strong fumes.
+- Use pursed-lip breathing during shortness of breath episodes.
+
+FOLLOW-UP
+- Pulmonology follow-up in 2 weeks.
+- Primary care follow-up within 7 days.
+- Repeat walk test at follow-up to decide if oxygen can be stopped.
+
+WHEN TO SEEK HELP / RETURN PRECAUTIONS
+- Go to the emergency department for severe shortness of breath, blue lips, confusion, chest pain, oxygen saturation below 88% despite prescribed oxygen, or inability to speak in full sentences.
+
+POST-DISCHARGE APP TEST SIGNAL
+High risk: home oxygen, steroid completion, inhaler adherence, and pulmonary follow-up needed.

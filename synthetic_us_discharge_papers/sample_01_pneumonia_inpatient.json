@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "document_type": "Inpatient Discharge Summary - Community-Acquired Pneumonia",
+  "patient": {
+    "name": "Jordan Ellis",
+    "dob": "04/18/1972",
+    "sex": "Male",
+    "mrn": "SYN-104982",
+    "phone": "555-0104"
+  },
+  "encounter": {
+    "admit": "03/12/2026 08:35",
+    "discharge": "03/15/2026 14:10",
+    "unit": "Medical Floor",
+    "attending": "A. Reynolds, MD",
+    "pcp": "M. Shah, MD"
+  },
+  "diagnoses": [
+    "Community-acquired pneumonia, right lower lobe",
+    "Acute hypoxemic respiratory failure, resolved",
+    "Hypertension",
+    "Tobacco use history"
+  ],
+  "medications": [
+    {
+      "status": "START",
+      "name": "Azithromycin",
+      "dose": "250 mg tablet",
+      "instructions": "Take 1 tablet by mouth daily",
+      "duration": "2 days",
+      "notes": "Complete antibiotic course."
+    },
+    {
+      "status": "START",
+      "name": "Cefpodoxime",
+      "dose": "200 mg tablet",
+      "instructions": "Take 1 tablet by mouth every 12 hours",
+      "duration": "5 days",
+      "notes": "Take with food."
+    },
+    {
+      "status": "CONTINUE",
+      "name": "Lisinopril",
+      "dose": "10 mg tablet",
+      "instructions": "Take 1 tablet by mouth daily",
+      "duration": "Ongoing",
+      "notes": "For blood pressure."
+    },
+    {
+      "status": "START",
+      "name": "Albuterol inhaler",
+      "dose": "90 mcg/puff",
+      "instructions": "Inhale 2 puffs every 6 hours as needed",
+      "duration": "As needed",
+      "notes": "For wheezing or shortness of breath."
+    }
+  ],
+  "follow_up": [
+    "Primary care visit with Dr. M. Shah within 7 days of discharge.",
+    "Repeat chest X-ray in 6 to 8 weeks to confirm clearing.",
+    "Call clinic if antibiotics cause rash, severe diarrhea, or vomiting."
+  ],
+  "return_precautions": [
+    "Return to the emergency department for worsening shortness of breath, chest pain, confusion, lips turning blue, fever above 101.5 F after 48 hours of antibiotics, or oxygen saturation below 90% if measured at home."
+  ],
+  "risk_notes": "Moderate risk: recent oxygen requirement and antibiotic completion needed."
+}

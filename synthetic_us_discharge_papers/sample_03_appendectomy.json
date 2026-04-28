@@ -1,0 +1,56 @@
+{
+  "synthetic": true,
+  "document_type": "Surgical Discharge Summary - Laparoscopic Appendectomy",
+  "patient": {
+    "name": "Ethan Brooks",
+    "dob": "12/28/1997",
+    "sex": "Male",
+    "mrn": "SYN-330872",
+    "phone": "555-0173"
+  },
+  "encounter": {
+    "admit": "04/02/2026 22:05",
+    "discharge": "04/04/2026 10:20",
+    "unit": "Surgery",
+    "attending": "D. Kim, MD",
+    "pcp": "None listed"
+  },
+  "diagnoses": [
+    "Acute appendicitis without perforation",
+    "Status post laparoscopic appendectomy"
+  ],
+  "medications": [
+    {
+      "status": "START",
+      "name": "Acetaminophen",
+      "dose": "500 mg tablet",
+      "instructions": "Take 2 tablets by mouth every 8 hours as needed",
+      "duration": "7 days",
+      "notes": "Do not exceed 3,000 mg per day."
+    },
+    {
+      "status": "START",
+      "name": "Oxycodone",
+      "dose": "5 mg tablet",
+      "instructions": "Take 1 tablet by mouth every 6 hours as needed for severe pain",
+      "duration": "3 days",
+      "notes": "Do not drive or drink alcohol."
+    },
+    {
+      "status": "START",
+      "name": "Docusate sodium",
+      "dose": "100 mg capsule",
+      "instructions": "Take 1 capsule by mouth twice daily as needed",
+      "duration": "7 days",
+      "notes": "For constipation while taking opioid pain medicine."
+    }
+  ],
+  "follow_up": [
+    "Surgery clinic follow-up in 10 to 14 days for wound check.",
+    "Call surgery clinic if pathology results are not received within 7 days."
+  ],
+  "return_precautions": [
+    "Return for fever above 101 F, worsening abdominal pain, repeated vomiting, pus or spreading redness around incision, chest pain, shortness of breath, or inability to pass urine."
+  ],
+  "risk_notes": "Moderate risk: post-op wound monitoring and short opioid course."
+}

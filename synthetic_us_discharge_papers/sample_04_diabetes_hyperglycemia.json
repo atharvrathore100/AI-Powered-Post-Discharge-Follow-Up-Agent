@@ -1,0 +1,65 @@
+{
+  "synthetic": true,
+  "document_type": "Emergency Department Discharge Instructions - Hyperglycemia",
+  "patient": {
+    "name": "Priya Raman",
+    "dob": "07/15/1984",
+    "sex": "Female",
+    "mrn": "SYN-448290",
+    "phone": "555-0189"
+  },
+  "encounter": {
+    "admit": "04/08/2026 13:12",
+    "discharge": "04/08/2026 18:50",
+    "unit": "Emergency Department",
+    "attending": "L. Ortiz, MD",
+    "pcp": "S. Menon, MD"
+  },
+  "diagnoses": [
+    "Hyperglycemia without diabetic ketoacidosis",
+    "Type 2 diabetes mellitus",
+    "Dehydration, improved"
+  ],
+  "medications": [
+    {
+      "status": "CONTINUE",
+      "name": "Metformin",
+      "dose": "1000 mg tablet",
+      "instructions": "Take 1 tablet by mouth twice daily with meals",
+      "duration": "Ongoing",
+      "notes": "Restart tonight with dinner."
+    },
+    {
+      "status": "START",
+      "name": "Insulin glargine",
+      "dose": "10 units",
+      "instructions": "Inject 10 units under the skin every night",
+      "duration": "Ongoing",
+      "notes": "New long-acting insulin."
+    },
+    {
+      "status": "START",
+      "name": "Glucose meter supplies",
+      "dose": "Test strips and lancets",
+      "instructions": "Check glucose before breakfast and before dinner",
+      "duration": "Ongoing",
+      "notes": "Bring log to follow-up."
+    },
+    {
+      "status": "AVOID",
+      "name": "Sugary drinks",
+      "dose": "N/A",
+      "instructions": "Do not use soda or juice except for low glucose treatment",
+      "duration": "Ongoing",
+      "notes": "Diet instruction."
+    }
+  ],
+  "follow_up": [
+    "Primary care appointment within 3 days for insulin adjustment.",
+    "Diabetes educator referral placed; call if not contacted within 1 week."
+  ],
+  "return_precautions": [
+    "Return to the emergency department for glucose above 400 mg/dL that does not improve, repeated vomiting, confusion, severe weakness, trouble breathing, or signs of low blood sugar that do not improve after treatment."
+  ],
+  "risk_notes": "High risk: new insulin start and needs early follow-up."
+}

@@ -1,0 +1,76 @@
+{
+  "synthetic": true,
+  "document_type": "Discharge Instructions - Heart Failure Exacerbation",
+  "patient": {
+    "name": "Marisol Grant",
+    "dob": "09/03/1958",
+    "sex": "Female",
+    "mrn": "SYN-220611",
+    "phone": "555-0148"
+  },
+  "encounter": {
+    "admit": "03/20/2026 17:20",
+    "discharge": "03/24/2026 11:45",
+    "unit": "Cardiology",
+    "attending": "P. Nguyen, MD",
+    "pcp": "R. Patel, MD"
+  },
+  "diagnoses": [
+    "Acute on chronic systolic heart failure",
+    "Type 2 diabetes mellitus",
+    "Chronic kidney disease stage 3a",
+    "Hypertension"
+  ],
+  "medications": [
+    {
+      "status": "CHANGE",
+      "name": "Furosemide",
+      "dose": "40 mg tablet",
+      "instructions": "Take 1 tablet by mouth twice daily",
+      "duration": "Ongoing",
+      "notes": "Dose increased from once daily."
+    },
+    {
+      "status": "START",
+      "name": "Potassium chloride",
+      "dose": "20 mEq tablet",
+      "instructions": "Take 1 tablet by mouth daily",
+      "duration": "Ongoing",
+      "notes": "Take while using furosemide unless told otherwise."
+    },
+    {
+      "status": "CONTINUE",
+      "name": "Carvedilol",
+      "dose": "12.5 mg tablet",
+      "instructions": "Take 1 tablet by mouth twice daily with meals",
+      "duration": "Ongoing",
+      "notes": "Do not stop suddenly."
+    },
+    {
+      "status": "CONTINUE",
+      "name": "Metformin ER",
+      "dose": "500 mg tablet",
+      "instructions": "Take 1 tablet by mouth with dinner",
+      "duration": "Ongoing",
+      "notes": "Hold if vomiting or unable to eat."
+    },
+    {
+      "status": "STOP",
+      "name": "Ibuprofen",
+      "dose": "200 mg tablet",
+      "instructions": "Do not take",
+      "duration": "Stopped",
+      "notes": "Can worsen kidney function and fluid retention."
+    }
+  ],
+  "follow_up": [
+    "Cardiology follow-up scheduled 03/31/2026 at 09:30 with Heart Failure Clinic.",
+    "Primary care follow-up within 1 to 2 weeks.",
+    "Basic metabolic panel blood test in 5 to 7 days to check kidney function and potassium."
+  ],
+  "return_precautions": [
+    "Call the heart failure clinic for weight gain of 3 lb in 24 hours or 5 lb in one week, worsening swelling, or increased shortness of breath.",
+    "Go to the emergency department for severe shortness of breath at rest, chest pain, fainting, confusion, or inability to lie flat due to breathing."
+  ],
+  "risk_notes": "High risk: medication change, diuretic monitoring, kidney disease, and early follow-up required."
+}

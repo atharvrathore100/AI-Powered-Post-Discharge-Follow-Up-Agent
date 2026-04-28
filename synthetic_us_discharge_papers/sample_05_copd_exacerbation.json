@@ -1,0 +1,66 @@
+{
+  "synthetic": true,
+  "document_type": "Hospital Discharge Instructions - COPD Exacerbation",
+  "patient": {
+    "name": "Robert Chen",
+    "dob": "02/06/1966",
+    "sex": "Male",
+    "mrn": "SYN-552014",
+    "phone": "555-0136"
+  },
+  "encounter": {
+    "admit": "04/11/2026 06:40",
+    "discharge": "04/13/2026 16:30",
+    "unit": "Pulmonary Medicine",
+    "attending": "N. Williams, DO",
+    "pcp": "K. Alvarez, MD"
+  },
+  "diagnoses": [
+    "COPD exacerbation",
+    "Acute bronchitis, suspected viral",
+    "Former smoker"
+  ],
+  "medications": [
+    {
+      "status": "START",
+      "name": "Prednisone",
+      "dose": "20 mg tablet",
+      "instructions": "Take 2 tablets by mouth daily",
+      "duration": "3 days",
+      "notes": "Take with food."
+    },
+    {
+      "status": "CONTINUE",
+      "name": "Tiotropium inhaler",
+      "dose": "18 mcg",
+      "instructions": "Inhale 1 capsule once daily",
+      "duration": "Ongoing",
+      "notes": "Maintenance inhaler."
+    },
+    {
+      "status": "CONTINUE",
+      "name": "Albuterol inhaler",
+      "dose": "90 mcg/puff",
+      "instructions": "Inhale 2 puffs every 4 hours as needed",
+      "duration": "As needed",
+      "notes": "Rescue inhaler."
+    },
+    {
+      "status": "START",
+      "name": "Home oxygen",
+      "dose": "2 L/min by nasal cannula",
+      "instructions": "Use with walking or activity",
+      "duration": "Until reassessed",
+      "notes": "Do not smoke near oxygen."
+    }
+  ],
+  "follow_up": [
+    "Pulmonology follow-up in 2 weeks.",
+    "Primary care follow-up within 7 days.",
+    "Repeat walk test at follow-up to decide if oxygen can be stopped."
+  ],
+  "return_precautions": [
+    "Go to the emergency department for severe shortness of breath, blue lips, confusion, chest pain, oxygen saturation below 88% despite prescribed oxygen, or inability to speak in full sentences."
+  ],
+  "risk_notes": "High risk: home oxygen, steroid completion, inhaler adherence, and pulmonary follow-up needed."
+}

@@ -1,0 +1,7 @@
+id,title,patient_name,discharge_datetime,risk_notes
+sample_01_pneumonia_inpatient,Inpatient Discharge Summary - Community-Acquired Pneumonia,Jordan Ellis,03/15/2026 14:10,Moderate risk: recent oxygen requirement and antibiotic completion needed.
+sample_02_heart_failure,Discharge Instructions - Heart Failure Exacerbation,Marisol Grant,03/24/2026 11:45,"High risk: medication change, diuretic monitoring, kidney disease, and early follow-up required."
+sample_03_appendectomy,Surgical Discharge Summary - Laparoscopic Appendectomy,Ethan Brooks,04/04/2026 10:20,Moderate risk: post-op wound monitoring and short opioid course.
+sample_04_diabetes_hyperglycemia,Emergency Department Discharge Instructions - Hyperglycemia,Priya Raman,04/08/2026 18:50,High risk: new insulin start and needs early follow-up.
+sample_05_copd_exacerbation,Hospital Discharge Instructions - COPD Exacerbation,Robert Chen,04/13/2026 16:30,"High risk: home oxygen, steroid completion, inhaler adherence, and pulmonary follow-up needed."
+sample_06_ankle_sprain_ed,Emergency Department Discharge Papers - Ankle Sprain,Samir Patel,04/14/2026 21:05,Low to moderate risk: mobility limitation and follow-up if symptoms persist.
